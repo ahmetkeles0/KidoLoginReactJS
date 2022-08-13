@@ -1,0 +1,79 @@
+.sign-in-content .header {
+    text-align: center;
+    color: #735EBB;
+    margin-top: 8%;
+  }
+  
+  .sign-in-content .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+  }
+  
+  .sign-in-content .form p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .sign-in-content .form input {
+    width: 100%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border-radius: 0.9rem;
+    border-color: #735EBB;
+    background-color: #44A6B41A;
+  }
+  
+  .sign-in-content .form .inputs {
+    margin-bottom: 5%;
+  }
+  
+  .sign-in-content .form .link {
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  
+  .sign-in-content .form .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .sign-in-content .form .submit input {
+    margin-bottom: 5%;
+  }
+  
+  .sign-in-content .form .submit input {
+    background-color: #735EBB;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-radius: 1.2rem;
+  }
+  
+  .sign-in-content .form .submit input:hover {
+    transition: ease-in-out 300ms;
+    background-color: white;
+    color: #735EBB;
+  }
+  
+  span {
+    font-size: 0.9rem;
+    color: #3CD77A;
+    padding: 2%;
+    display: none;
+  }
+  
+  input:invalid[focused="true"]~span {
+    display: block;
+  }
+  
+  input:valid[focused="false"]~span {
+    display: block;
+  }

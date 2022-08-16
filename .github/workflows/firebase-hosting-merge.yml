@@ -8,16 +8,7 @@ name: Deploy to Firebase Hosting on merge
       - dev
 jobs:
   build_and_deploy:
-  slack_notification:
-  uses: Discontract/github-action-slack-notify-deployment@v1
-with:
-  channel: deployments
-  status: STARTED
-  color: good
-env:
-  SLACK_BOT_TOKEN: ${{ secrets.MY_SECRET }}
-
-runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: npm ci && npm run build
@@ -27,3 +18,15 @@ runs-on: ubuntu-latest
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_KIDOLOGINRJS }}'
           channelId: live
           projectId: kidologinrjs
+  
+  
+  slackNotification:
+    name: Slack Notification
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.MY_SECRET }}
+        SLACK_MESSAGE: 'https://kidologinrjs.web.app'

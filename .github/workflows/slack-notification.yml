@@ -1,7 +1,0 @@
-uses: Discontract/github-action-slack-notify-deployment@v1
-with:
-  channel: deployments
-  status: STARTED
-  color: good
-env:
-  SLACK_BOT_TOKEN: ${{ secrets.MY_SECRET }}

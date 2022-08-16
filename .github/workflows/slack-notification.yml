@@ -13,6 +13,7 @@ with:
   status: STARTED
   color: good
 env:
-         SLACK_BOT_TOKEN: ${{ secrets.MY_SECRET }}
+          SLACK_BOT_TOKEN: ${{ secrets.MY_SECRET }}
+          SLACK_INCOMING_WEBHOOK: ${{ secrets.MY_SECRET }}
           SLACK_MESSAGE: 'https://kidologinrjs.web.app/'
           SLACK_TITLE: 'Slack Notification Demo'

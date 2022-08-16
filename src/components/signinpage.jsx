@@ -7,9 +7,6 @@ const SignInPage = () => {
     const intent = useNavigate();
 
     const [success, setSuccess] = useState(true);
-
-    var x=5;
-
     const [values, setValues] = useState({
         username: "",
         password: ""

@@ -1,0 +1,14 @@
+on: push
+name: Slack Notification Demo
+jobs:
+    slackNotification:
+      name: Slack Notification Demo
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@master
+      - name: Slack Notification Demo
+        uses: bryannice/gitactions-slack-notification@2.0.0
+        env:
+          SLACK_INCOMING_WEBHOOK: ${{ secrets.MY_SECRET }}
+          SLACK_MESSAGE: 'PUSHLADIM'
+          SLACK_TITLE: 'Slack Notification Demo'

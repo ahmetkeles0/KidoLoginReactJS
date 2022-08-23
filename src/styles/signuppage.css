@@ -1,177 +1,166 @@
+/* sign up */
+
 .sign-up-content .header {
-    text-align: center;
-    color: #735EBB;
-    margin-top: 1%;
-  }
-  
-  .sign-up-content .form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-    min-width: 100vh;
-    min-height: 100%;
-  }
-  
-  .sign-up-content .item-1 {
-    display: flex;
-  }
-  
-  .sign-up-content .item-2 {
-    display: flex;
-  }
-  
-  .sign-up-content .item-3 {
-    display: flex;
-  }
-  
-  .sign-up-content .item-4 {
-    display: flex;
-  }
-  
-  .sign-up-content .item-5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .sign-up-content .form p {
-    display: inline-block;
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-  
-  .sign-up-content .form input {
-    width: 100%;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    border-radius: 0.7rem;
-    border-color: #735EBB;
-    background-color: #44A6B41A;
-  }
-  
-  .sign-up-content .form .item-1 .name {
-    margin-right: 11%;
-  }
-  
-  .sign-up-content .form .item-1 .mail {
-    margin-left: 10%;
-  }
-  
-  .sign-up-content .form .item-2 .password {
-    margin-right: 25%;
-  }
-  
-  .sign-up-content .form .item-2 .password-2 {
-    margin-right: 9%;
-  }
+  text-align: center;
+  color: #735EBB;
+  margin-top: 4%;
+}
 
-  .sign-up-content .form .item-3 .child-name {
-    margin-right: 9%;
-  }
-  
-  .sign-up-content .form .item-3 .child-birth {
-    margin-left: 9.5%;
-  }
-  
-  .sign-up-content .form .item-4 .child-gender {
-    margin-right: 23%;
-  }
-  
-  .sign-up-content .form .item-4 .child-gender button {
-    border-color: white;
-    background-color: white;
-    border-radius: 0.5rem;
-    padding: 5%;
-    margin-top: 50%;
-    margin-right: 3%;
-  }
-  
-  .sign-up-content .form .item-4 .child-gender button:hover {
-    color: #735EBB;
-    border-color: #735EBB;
-    background-color: white;
-  }
-  
-  .sign-up-content .form .item-4 .message {
-    display: flex;
-    margin-left: 12%;
-    margin-top: 5%;
-  }
-  
-  .sign-up-content .form .item-4 .message .warning-logo {
-    background-image: url('../assets/warninglogo.png');
-    margin-top: 1%;
-    background-repeat: no-repeat;
-    width: 18.5px;
-    height: 15.5px;
-  
-  }
-  
-  .sign-up-content .form .item-4 .message .text {
-    font-size: 12px;
-  }
-  
-  .sign-up-content .form .item-4 .toggle-buttons {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 20%;
+.sign-up-content .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  min-width: 100vh;
+  min-height: 100%;
+}
 
-    
-  }
-  
-  .sign-up-content .form .item-5 .checkbox {
-    margin-top: 14%;
-    margin-top: 4%;
-    
-  }
-  
-  .sign-up-content .form .item-5 .policy {
-    display: flex;
-    margin-top: 4.4%;
-  }
-  
-  .sign-up-content .form .item-5 .policy .policy-text {
-    white-space: nowrap;
-    color: #735EBB;
-    font-weight: bolder;
-    font-size: 0.9rem;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    margin-top: 4%;
+.sign-up-content .item-1 {
+  display: flex;
+}
 
-  }
-  
-  .sign-up-content .form .item-5 .policy .policy-text-2 {
-    white-space: nowrap;
-    color: #735EBB;
-    font-size: 0.9rem;
-    margin-left: 1%;
-    margin-top: 4%;
-  }
-  
-  
-  .sign-up-content .form .submit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .sign-up-content .form .submit input {
-    background-color: #735EBB;
-    color: white;
-    font-size: 1rem;
-    text-align: center;
-    width: 50%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    border-radius: 1.2rem;
-    margin-bottom: 2%;
-  }
-  
-  .sign-up-content .form .submit input:hover {
-    transition: ease-in-out 300ms;
-    background-color: white;
-    color: #735EBB;
-  }
+.sign-up-content .item-2 {
+  display: flex;
+}
+
+.sign-up-content .item-3 {
+  display: flex;
+}
+
+.sign-up-content .item-4 {
+  display: flex;
+}
+
+.sign-up-content .item-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-content .form p {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sign-up-content .form input {
+  width: 100%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  border-radius: 0.7rem;
+  border-color: #735EBB;
+  background-color: #44A6B41A;
+}
+
+.sign-up-content .form .item-1 .name {
+  margin-right: 11%;
+}
+
+.sign-up-content .form .item-1 .mail {
+  margin-left: 10%;
+}
+
+.sign-up-content .form .item-2 .password {
+  margin-right: 8%;
+}
+
+.sign-up-content .form .item-2 .password-2 {
+  margin-left: 8%;
+}
+
+.sign-up-content .form .item-3 .child-name {
+  margin-right: 9%;
+}
+
+.sign-up-content .form .item-3 .child-birth {
+  margin-left: 9.5%;
+}
+
+.sign-up-content .form .item-4 .child-gender {
+  margin-right: 23%;
+}
+
+.sign-up-content .form .item-4 .child-gender button {
+  border-color: white;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 5%;
+  margin-right: 3%;
+}
+
+.sign-up-content .form .item-4 .child-gender button:hover {
+  color: #735EBB;
+  border-color: #735EBB;
+  background-color: white;
+}
+
+.sign-up-content .form .item-4 .message {
+  display: flex;
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+.sign-up-content .form .item-4 .message .tip {
+  background-image: url('../assets/warninglogo.png');
+  background-repeat: no-repeat;
+  width: 18.5px;
+  height: 15.5px;
+
+}
+
+.sign-up-content .form .item-4 .message .text {
+  font-size: 12px;
+}
+
+.sign-up-content .form .item-4 .toggle-buttons {
+  margin-left: 1%;
+}
+
+.sign-up-content .form .item-5 .checkbox {
+  margin-top: 2%;
+}
+
+.sign-up-content .form .item-5 .policy {
+  display: flex;
+  margin-top: 4.4%;
+}
+
+.sign-up-content .form .item-5 .policy .policy-text {
+  white-space: nowrap;
+  color: #735EBB;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  margin-left: 5%;
+}
+
+.sign-up-content .form .item-5 .policy .policy-text-2 {
+  white-space: nowrap;
+  color: #735EBB;
+  font-size: 0.9rem;
+  margin-left: 1%;
+}
+
+
+.sign-up-content .form .submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-content .form .submit input {
+  background-color: #735EBB;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  width: 50%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  border-radius: 1.2rem;
+  margin-bottom: 2%;
+}
+
+.sign-up-content .form .submit input:hover {
+  transition: ease-in-out 300ms;
+  background-color: white;
+  color: #735EBB;
+}

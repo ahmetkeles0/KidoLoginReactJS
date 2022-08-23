@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.pop-up-content .inner {
+.inner {
     text-align: center;
     border-radius: 1rem;
     position: relative;
@@ -22,14 +22,14 @@
     background-color: #fff;
 }
 
-.pop-up-content .inner h1 {
+.inner h1 {
     font-size: 1.6rem;
     font-weight: bold;
     margin-top: 10%;
 }
 
 .pop-up-content .inner p {
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 .pop-up-content .inner .submit input {
@@ -41,4 +41,5 @@
     padding-bottom: 2%;
     padding-top: 2%;
     border-radius: 1.2rem;
+    margin-top: 3%;
 }

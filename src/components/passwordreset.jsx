@@ -27,7 +27,7 @@ const PasswordReset = () => {
             id: 1,
             name: "email",
             type: "text",
-            placeholder: " E-Posta",
+            placeholder: " E-Posta adresiniz",
             label: "E-Mail",
             topmessage: "Şifrenizi sıfırlamak için daha önce Kidokit’e üye olduğunuz e-posta adresinizi yazınız",
             errormessage: "lütfen geçerli bir adres girin",
@@ -94,7 +94,7 @@ const PasswordReset = () => {
                     </div>
                     <br />
                     <div className="submit">
-                        <input style={{ backgroundColor: buttonState === true ? "grey" : "" }} type="submit" value="E-Posta Gönder" disabled={buttonState} onClick={async () => {
+                        <input className='butonprop' style={{backgroundColor: buttonState === true ? "#735EBB" : "" , background: "#735EBB" , opacity: buttonState === true ? "0.4": "",}}  type="submit" value="E-Posta Gönder" disabled={buttonState} onClick={async () => {
                             handleSuccesTrue();
                             values.email && await resetRequest()
                         }} focused={success.toString()} />

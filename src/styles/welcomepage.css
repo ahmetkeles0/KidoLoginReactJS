@@ -1,5 +1,5 @@
 .welcome-page-content {
-    background-image: url("/assets/background.png");
+    background-image: url("../assets/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -8,7 +8,7 @@
 
 .kidologo {
   padding-top: 10%;
-  background-image: url("/assets/kidologo.png");
+  background-image: url("../assets/kidologo.png");
   width: 200px;
   height: 100px;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@
 .content-text {
 
   text-align: center;
-  color: gold;
+  color: white;
   font-size: 1.3rem;
   margin-bottom: 6%;
 

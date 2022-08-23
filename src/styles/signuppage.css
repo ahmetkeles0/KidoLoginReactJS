@@ -100,7 +100,7 @@
   }
   
   .sign-up-content .form .item-4 .message .warning-logo {
-    background-image: url('/assets/warninglogo.png');
+    background-image: url('../assets/warninglogo.png');
     margin-top: 1%;
     background-repeat: no-repeat;
     width: 18.5px;

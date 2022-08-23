@@ -98,7 +98,7 @@ const SignInPage = () => {
                     </div>
                     <br />
                     <div className="link">
-                        <a href="/reset-password">Şifremi Unuttum</a>
+                        <a href="/passwordreset">Şifremi Unuttum</a>
                     </div>
                     <br />
                     <div className="submit">

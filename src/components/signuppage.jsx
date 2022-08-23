@@ -139,7 +139,7 @@ const SignUpPage = () => {
     return (
         <div>
             <div className="sign-up-content">
-                <h1 className="header">Kayıt Olun</h1>
+                <h1 className="signupheader">Kayıt Olun</h1>
                 <div className="form">
                     <form onSubmit={handleSubmit}>
                         <div>

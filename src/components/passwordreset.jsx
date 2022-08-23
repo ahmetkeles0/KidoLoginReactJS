@@ -40,13 +40,15 @@ const PasswordReset = () => {
     }
 
     const onChange = (e) => {
-        setValues({ ...values, [e.target.name]: e.target.value })
         if (values.email.includes("@")) {
             setButtonState(false);
         }
         else {
-            setButtonState(true);
-        }
+            setButtonState(true);}
+            
+        setValues({ ...values, [e.target.name]: e.target.value })
+        
+        
     }
 
     const handleSuccesFalse = () => {
@@ -94,7 +96,7 @@ const PasswordReset = () => {
                     </div>
                     <br />
                     <div className="submit">
-                        <input className='butonprop' style={{backgroundColor: buttonState === true ? "#735EBB" : "" , background: "#735EBB" , opacity: buttonState === true ? "0.4": "",}}  type="submit" value="E-Posta Gönder" disabled={buttonState} onClick={async () => {
+                        <input className='butonprop' style={{backgroundColor: buttonState === true ? "#735EBB" : "" , background: "#735EBB" , opacity: buttonState === true ? "0.4": "",}}  type="submit" value="E-Posta Gönder" disabled={()=> {return buttonState}} onClick={async () => {
                             handleSuccesTrue();
                             values.email && await resetRequest()
                         }} focused={success.toString()} />

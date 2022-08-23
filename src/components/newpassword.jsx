@@ -79,7 +79,7 @@ const NewPassword = () => {
         }
     }
     return (
-        <div className="content-new-password">
+        <div className="content content-new-password">
             <h1 className="header"> Yeni Bir Şifre Belirleyiniz</h1>
             <div className="form">
                 <form>

@@ -7,7 +7,6 @@ const SignInPage = () => {
     const intent = useNavigate();
 
     const [success, setSuccess] = useState(true);
-
     const [values, setValues] = useState({
         username: "",
         password: ""
@@ -99,7 +98,7 @@ const SignInPage = () => {
                     </div>
                     <br />
                     <div className="link">
-                        <a href="/reset-password">Şifremi Unuttum</a>
+                        <a href="/passwordreset">Şifremi Unuttum</a>
                     </div>
                     <br />
                     <div className="submit">
